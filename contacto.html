@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tomas Luna">
+    <meta name="keywords" content="panaderia factura">
+    <meta name="description" content="pan, tortilla">
+    <title>Panaderia Cocu</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark py-4">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Panaderia Cocu</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="historia.html">Historia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="contacto.html">Contacto</a>
+                  </li>
+            
+              </div>
+            </div>
+        </nav>
+
+    </header>
+ <main class="container my-5">
+<section>
+  <h1 class="display-1 text-center">Contactanos</h1>
+  <hr>
+  <article class="row">
+    <aside class="col-12 col-md-6">
+      <form>
+        <div class="mb-3">
+          <label for="nombreapellido" class="form-label">Nombre y apellido</label>
+          <input type="text" id="nombreapellido" class="fore-control" placeholder="Ej: Juan Perez" minlength="5" maxlength="60" required >
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="text" id="email" class="fore-control" placeholder="Ej: Juanperez@gmail.com" minlength="5" maxlength="60" required >
+        </div>
+        <div class="mb-3">
+          <label for="consulta" class="form-label">Consulta</label>
+          <input type="text" id="consulta" rows="4" placeholder="agregue su consulta"   class="fore-control" minlength="10" maxlength="200" required >
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+
+    </aside>
+    <aside class="col-12 col-md-6">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.1022197705315!2d-65.20720179999999!3d-26.836700899999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses-419!2sar!4v1654550958949!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </aside>
+  </article>
+</section>
+ </main>
+</body>
+<footer class="bg-dark text-light text-center py-4">
+    <p>&copy;Todos los derechos reservados</p>
+</footer>
+<script src="js/bootstrap.min.js"></script>
+
+</html>
